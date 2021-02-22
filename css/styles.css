@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    text-align: center;
+}
+h1, h2, h3 {     
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Background Color */
+
+.brand-bg{
+    background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+@media (max-width: 1028px) {
+    
+    .navbar {
+        padding: 0 0 3.5rem;
+    }
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+.title-heading-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Product Device Image */
+
+.product-device {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px) {
+    
+    .product-device {
+        width: 80%;
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+/* Features */
+
+#features {
+    /* text-align: center; */
+    /* background-color: #fff; */
+    position: relative;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0 1.5rem;
+}
+
+/* Testimonial */
+
+#testimonials, #press {
+    background-color: #ef8172;
+}
+
+.testimonial-headibg-text {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    /* text-align: center; */
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-heading-text {
+    font-size: 3rem;
+}
+
+.card {
+    margin: 1.5rem;
+}
+
+/* Socisl Icons */
+
+.socisl-icons {
+    margin: 0 10px;
+}
